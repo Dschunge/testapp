@@ -290,7 +290,7 @@ export function Dashboard() {
                 <div className="grid auto-rows-max items-start gap-4 lg:col-span-2 lg:gap-8">
                   <Card x-chunk="dashboard-07-chunk-0">
                     <CardHeader>
-                      <CardTitle>Product Details 1</CardTitle>
+                      <CardTitle>Product Details 2</CardTitle>
                       <CardDescription>My amazing products</CardDescription>
                     </CardHeader>
                     <CardContent>
