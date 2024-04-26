@@ -88,7 +88,7 @@ export function Dashboard() {
                   className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
                 >
                   <Home className="h-5 w-5" />
-                  <span className="sr-only">Dashboard</span>
+                  <span className="sr-only">Dashboard for Beginners</span>
                 </Link>
               </TooltipTrigger>
               <TooltipContent side="right">Dashboard</TooltipContent>
@@ -100,7 +100,7 @@ export function Dashboard() {
                   className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
                 >
                   <ShoppingCart className="h-5 w-5" />
-                  <span className="sr-only">Orders</span>
+                  <span className="sr-only">Orders 1</span>
                 </Link>
               </TooltipTrigger>
               <TooltipContent side="right">Orders</TooltipContent>
@@ -290,10 +290,8 @@ export function Dashboard() {
                 <div className="grid auto-rows-max items-start gap-4 lg:col-span-2 lg:gap-8">
                   <Card x-chunk="dashboard-07-chunk-0">
                     <CardHeader>
-                      <CardTitle>Product Details</CardTitle>
-                      <CardDescription>
-                        Lipsum dolor sit amet, consectetur adipiscing elit
-                      </CardDescription>
+                      <CardTitle>Product Details 1</CardTitle>
+                      <CardDescription>My amazing products</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <div className="grid gap-6">
